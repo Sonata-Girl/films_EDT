@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fe2eb72-bfc6-4870-8fef-d3348b394964">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cc01c5f1-6123-488b-9c9e-eaa214ed2adc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="911d82b8-0681-4aea-ba6c-f8491f49b828"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c857fd71-a082-489a-8aa2-0f225a7b144f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="012cb244-f600-47ac-8254-112eeba13446"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e8207bcb-c4c1-45ae-a4c5-f6f74d5e7648"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="df9788c3-ea08-43d5-a622-d2f5765b4651"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7884db77-665f-4e84-aafc-bb5da9eb4ae7"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="16ca1344-3159-48e0-92b4-eed9070bf4bc">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Фильмы</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.Актеры</catalogs>
+  <catalogs>Catalog.Фильмы</catalogs>
+  <catalogs>Catalog.Жанры</catalogs>
+  <enums>Enum.Вид</enums>
+  <enums>Enum.Жанры</enums>
+</mdclass:Configuration>

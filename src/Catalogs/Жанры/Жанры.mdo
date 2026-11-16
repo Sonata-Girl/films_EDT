@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c20b2da-7846-4be8-891a-43752b453fa4">
+  <producedTypes>
+    <objectType typeId="7d87cc0e-3ece-42f9-b205-71c84b396ec7" valueTypeId="98f6bff2-0020-453a-8f38-29deede98906"/>
+    <refType typeId="0fd59a28-67ae-4374-88bd-cc18426ed3c2" valueTypeId="08ead653-6d6e-4a40-84c2-5b62721d46d2"/>
+    <selectionType typeId="213e65f6-8f3e-483e-8a88-13b4991c43e8" valueTypeId="f7a6575c-ff00-428c-84c5-9aec1ba199e8"/>
+    <listType typeId="78e91b57-81d0-4893-ae08-035f24b3bf3e" valueTypeId="67b4b84a-d666-4489-a3e7-cb28bdc9048d"/>
+    <managerType typeId="e927be3c-38e6-4ffa-96f5-deb85178f065" valueTypeId="7c7b627f-ca6f-4faa-bcc6-eff4d46e9ef2"/>
+  </producedTypes>
+  <name>Жанры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Жанры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Жанры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Жанры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

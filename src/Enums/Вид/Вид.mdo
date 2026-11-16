@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1a901af-825e-4ee6-8328-1d46431fc8db">
+  <producedTypes>
+    <refType typeId="ee785585-d6c3-4e60-866f-500edcd733a6" valueTypeId="f162800f-4a13-477f-b3fd-fc5ae7d50c64"/>
+    <listType typeId="c673a339-0191-4f62-b6ef-4dab848cb8d3" valueTypeId="d60656ab-3227-469f-8b44-64407a36eb15"/>
+    <managerType typeId="9a587eec-ca84-4a86-9106-e9fac9beaa4b" valueTypeId="e490f2c5-94c1-47a6-9491-29089ec6dee6"/>
+  </producedTypes>
+  <name>Вид</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5db7a3e0-c8fb-49ed-a8ae-cc19ce218f90">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e30b6377-2b6d-44a6-b25f-2545d389578e">
+    <name>Сериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сериал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecedbb8d-4188-4b2f-9133-dd1dceb2f619">
+    <name>Мультфильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мультфильм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82841def-6f3e-4fe6-8b43-72a874902752">
+    <name>Мульт3Д</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мульт3 Д</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

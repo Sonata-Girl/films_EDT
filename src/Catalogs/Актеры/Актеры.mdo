@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff192288-d7c6-4566-abc3-644a1d0dc723">
+  <producedTypes>
+    <objectType typeId="52e60435-3afd-4248-bbf4-6e2a6c8c19f4" valueTypeId="ffc7bbc0-4dc8-4735-a91d-7bcff3133b0c"/>
+    <refType typeId="8aeabbe1-b90b-4d17-85e3-1b6a891601ba" valueTypeId="8f5b5a33-d9cb-49b3-b732-53c4bd92cc80"/>
+    <selectionType typeId="c108419d-7a5c-4e4e-b25e-2bcbe558a397" valueTypeId="906fb70d-251b-411d-a6e2-7c84d3497dea"/>
+    <listType typeId="70202fc2-1c5b-407f-8ac6-01bd653e6cf1" valueTypeId="048e9388-9b50-453c-b28c-ea1f22c3f6a1"/>
+    <managerType typeId="d7a565bb-1e42-4a34-979b-122930b02990" valueTypeId="87e83789-1cc3-4a19-8363-aa6b39bd78da"/>
+  </producedTypes>
+  <name>Актеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Актеры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Актеры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ec67884f-db12-4410-b730-1f676a78a448">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ff30598-a6e1-4d11-9505-1b07cb254f0e">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

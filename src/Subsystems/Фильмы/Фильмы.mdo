@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99cf8e53-08a2-4592-b8f1-3bb1ef09c443">
+  <name>Фильмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильмы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Фильмы</content>
+  <content>Catalog.Актеры</content>
+  <content>Catalog.Жанры</content>
+</mdclass:Subsystem>

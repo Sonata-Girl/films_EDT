@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ИностранноеНаименование" id="40">
+			<DataPath>Объект.ИностранноеНаименование</DataPath>
+			<ContextMenu name="ИностранноеНаименованиеКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ИностранноеНаименованиеРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<UsualGroup name="Группа" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<InputField name="Оценка" id="32">
+					<DataPath>Объект.Оценка</DataPath>
+					<ContextMenu name="ОценкаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ОценкаРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ОценкаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Жанр" id="43">
+					<DataPath>Объект.ЖанрыДляПоиска</DataPath>
+					<ContextMenu name="ЖанрКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ЖанрРасширеннаяПодсказка" id="45"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="46">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<InputField name="ДатаВыхода" id="7">
+					<DataPath>Объект.ДатаВыхода</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаВыходаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ДатаВыходаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="Тип" id="29">
+					<DataPath>Объект.Тип</DataPath>
+					<ContextMenu name="ТипКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Описание" id="37">
+			<DataPath>Объект.Описание</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<Table name="АктерскийСостав" id="10">
+			<Representation>List</Representation>
+			<HeightInTableRows>3</HeightInTableRows>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Объект.АктерскийСостав</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="АктерскийСоставКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="АктерскийСоставКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="АктерскийСоставРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="АктерскийСоставСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>АктерскийСостав</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АктерскийСоставСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="АктерскийСоставСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="АктерскийСоставСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>АктерскийСостав</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АктерскийСоставСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="АктерскийСоставСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="АктерскийСоставУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>АктерскийСостав</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="АктерскийСоставУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="АктерскийСоставУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="АктерскийСоставНомерСтроки" id="23">
+					<DataPath>Объект.АктерскийСостав.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="АктерскийСоставНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="АктерскийСоставНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="АктерскийСоставАктер" id="26">
+					<DataPath>Объект.АктерскийСостав.Актер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="АктерскийСоставАктерКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="АктерскийСоставАктерРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Фильмы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
